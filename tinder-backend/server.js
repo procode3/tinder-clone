@@ -2,11 +2,12 @@ import express from "express";
 import mongoose, { connect } from "mongoose";
 import Cards from './dbCards.js'
 import Cors from 'cors';
+import pass from ".env"
 
 // App Config
 const app = express();
 const port = process.env.PORT || 8000;
-const connection_url = `mongodb+srv://eriq:dbmong123@cluster0.pl1akyy.mongodb.net/tinderdb?retryWrites=true&w=majority`
+const connection_url = `mongodb+srv://eriq:${pass}@cluster0.pl1akyy.mongodb.net/tinderdb?retryWrites=true&w=majority`
 
 
 
