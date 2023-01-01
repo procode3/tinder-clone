@@ -1,20 +1,33 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import TinderCard from 'react-tinder-card';
 import "./TinderCards.css"
-import axios from './axios';
+//import axios from './axios';
 
 function TinderCards() {
    
-    const [people, setPeople] = useState([]);
-    useEffect(() => {
-        async function fetchData() {
-            const req = await axios.get('/tinder/cards');
+    const [people] = useState([
+        {
+            name: "Nikola Tesla",
+            imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Nikola_Tesla.jpg/240px-Nikola_Tesla.jpg",
+        },
+        {
+            name: "Elon Musk",
+            imgUrl: "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSStEXQ52SE6txqvnwfAyOZ-dt6fkkBqzcir0RaZkoG54dYK7UByieR90Nb18ON4rdZ6VyDNVuQdk1kXik",
+        },
+        {
+            name: "Jeff Bezos",
+            imgUrl: "https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQcKtPg4LQ1A7_j_7_ph7FfTTTjQrnqOdC2EPUHdeqAZ01JOImw19i9gvYHROXo0HahI13E_dZ1ZekfGEE",
+        },
+    ]);
+    // useEffect(() => {
+    //     async function fetchData() {
+    //         const req = await axios.get('/tinder/cards');
 
-            setPeople(req.data);
-        }
-        fetchData();
+    //         setPeople(req.data);
+    //     }
+    //     fetchData();
         
-    }, []);
+    // }, []);
     
     console.log(people);
 
