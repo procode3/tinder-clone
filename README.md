@@ -12,14 +12,14 @@ Swipe functionality | Material UI, react-tinder-cards.
 Responsive compnents| Material UI Icons and Components.
 
 ## Instllation Demo
-1. Clone the repo
+1. clone the repo
 2. cd into ./tinder-clone directory
 3. run npm i
-3. run npm start
-NB, this will show a preview of the app with no DB connection
-4. Edit the tinder-cards.js file by uncommenting axios to get data from backend
-5. Set up the backend by cd into ./tinder-back end and run nodemon server.js
-6. You can retrieve the name and IMG url from MongoDb and display them in the front end
+3. run npm start  
+    NB, this will show a preview of the app with no DB connection
+4. edit the tinder-cards.js file by uncommenting axios to get data from backend
+5. set up the backend by cd into ./tinder-back end and run nodemon server.js
+6. you can retrieve the name and IMG url from MongoDb and display them in the front end
 7. modify the app as you see fit.
 
 ## Screenshot
