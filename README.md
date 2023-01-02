@@ -23,10 +23,8 @@ NB, this will show a preview of the app with no DB connection
 7. modify the app as you see fit.
 
 ##Screenshot
-./Screenshot (13).png
-## Table of contents
-[readline.c](./readline) | reads user input.
+[Screenshot](./Screenshot (13).png)
 
 ## Authors
 Erick Barasa
-Reachout on 254707819550 if you need us to push this further.
+254707819550 
