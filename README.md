@@ -4,12 +4,12 @@
 It is a ReactJS app that replicates the tinder app allowin users to swipe left and right:
 
 ## Functionalities of the app
-Functionality | Technology
--------------|--------------
+Functionality                             |Technology
+----------------------------------------- |---------------------------------
 1. Retrieve name and IMG url from MongoDB | Mongoose and ExpressJs.
-2. Retrieve data from backend | Axios.
-3. Swipe functionality | Material UI | rect-tinder-cards.
-4. Responsive compnents | Material UI Icons and Components.
+2. Retrieve data from backend             | Axios.
+3. Swipe functionality                    | Material UI, react-tinder-cards.
+4. Responsive compnents                   | Material UI Icons and Components.
 
 ## Instllation Demo
 1. Clone the repo
