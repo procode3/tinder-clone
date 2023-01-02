@@ -1,4 +1,4 @@
-##Tinder-Clone Project
+## Tinder-Clone Project
 
 ## Description
 It is a ReactJS app that replicates the tinder app allowin users to swipe left and right:
