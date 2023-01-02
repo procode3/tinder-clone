@@ -11,7 +11,7 @@ Functionality | Technology
 3. Swipe functionality | Material UI | rect-tinder-cards.
 4. Responsive compnents | Material UI Icons and Components.
 
-##Instllation Demo
+## Instllation Demo
 1. Clone the repo
 2. cd into ./tinder-clone directory
 3. run npm i
@@ -22,9 +22,9 @@ NB, this will show a preview of the app with no DB connection
 6. You can retrieve the name and IMG url from MongoDb and display them in the front end
 7. modify the app as you see fit.
 
-##Screenshot
+## Screenshot
 [Screenshot](./Screenshot (13).png)
 
-## Authors
+## Author
 Erick Barasa
 254707819550 
