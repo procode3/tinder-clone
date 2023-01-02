@@ -17,7 +17,7 @@ Responsive compnents| Material UI Icons and Components.
 3. run npm i
 3. run npm start
 NB, this will show a preview of the app with no DB connection
-4. Edit the tinder-cards.js file by uncomenting axios to get data from backend
+4. Edit the tinder-cards.js file by uncommenting axios to get data from backend
 5. Set up the backend by cd into ./tinder-back end and run nodemon server.js
 6. You can retrieve the name and IMG url from MongoDb and display them in the front end
 7. modify the app as you see fit.
@@ -26,5 +26,5 @@ NB, this will show a preview of the app with no DB connection
 ![Screenshot (13)](https://user-images.githubusercontent.com/51229609/210204189-bcb0848a-e315-4c30-a2b1-e1fc3f562e4c.png)
 
 ## Author
-Erick Barasa
+Erick Barasa  
 254707819550 
