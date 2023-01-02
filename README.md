@@ -23,7 +23,7 @@ NB, this will show a preview of the app with no DB connection
 7. modify the app as you see fit.
 
 ## Screenshot
-[Screenshot](./Screenshot (13).png)
+![Screenshot (13)](https://user-images.githubusercontent.com/51229609/210204189-bcb0848a-e315-4c30-a2b1-e1fc3f562e4c.png)
 
 ## Author
 Erick Barasa
